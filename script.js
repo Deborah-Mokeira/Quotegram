@@ -36,7 +36,7 @@ function newQuote(){
     // Check Quote length to determine styling
     if (quote.text.length > 100) {
       quoteText.classList.add('long-quote');
-    } else{
+    } else {
       quoteText.classList.remove('long-quote') ;
     }
     // Set Quote, Hide Loader
